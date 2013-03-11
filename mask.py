@@ -30,6 +30,7 @@ try:
     print(sts)
 except ValueError:
     try:
+        a = sys.argv[1]
         b = a.split('.')
         c = 0
         
